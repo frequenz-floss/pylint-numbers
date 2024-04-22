@@ -52,7 +52,7 @@ dev-mkdocs = [
   "mike == 1.1.2",
   "mkdocs-gen-files == 0.5.0",
   "mkdocs-literate-nav == 0.6.1",
-  "mkdocs-material == 9.5.17",
+  "mkdocs-material == 9.5.18",
   "mkdocstrings[python] == 0.24.3",
   "frequenz-repo-config[lib] == 0.9.1",
 ]
@@ -62,7 +62,7 @@ dev-mypy = [
   "flake8-numbers[dev-mkdocs,dev-noxfile,dev-pytest]",
 ]
 dev-noxfile = [
-  "nox == 2024.3.2",
+  "nox == 2024.4.15",
   "frequenz-repo-config[lib] == 0.9.1",
 ]
 dev-pylint = [
