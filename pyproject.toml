@@ -17,8 +17,16 @@ name = "flake8-numbers"
 description = "Flake8 Numbers Plugin"
 readme = "README.md"
 license = { text = "MIT" }
-keywords = ["frequenz", "python", "lib", "library", "flake8_numbers", "flake8", "numbers", "plugin"]
-# TODO(cookiecutter): Remove and add more classifiers if appropriate
+keywords = [
+  "frequenz",
+  "python",
+  "lib",
+  "library",
+  "flake8_numbers",
+  "flake8",
+  "numbers",
+  "plugin",
+]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",
@@ -29,7 +37,6 @@ classifiers = [
   "Typing :: Typed",
 ]
 requires-python = ">= 3.11, < 4"
-# TODO(cookiecutter): Remove and add more dependencies if appropriate
 dependencies = [
   "typing-extensions >= 4.5.0, < 5",
 ]
@@ -65,10 +72,7 @@ dev-mypy = [
   # For checking the noxfile, docs/ script, and tests
   "flake8-numbers[dev-mkdocs,dev-noxfile,dev-pytest]",
 ]
-dev-noxfile = [
-  "nox == 2024.4.15",
-  "frequenz-repo-config[lib] == 0.10.0",
-]
+dev-noxfile = ["nox == 2024.4.15", "frequenz-repo-config[lib] == 0.10.0"]
 dev-pylint = [
   "pylint == 3.2.7",
   # For checking the noxfile, docs/ script, and tests
