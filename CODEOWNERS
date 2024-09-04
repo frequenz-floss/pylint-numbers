@@ -4,5 +4,4 @@
 # Fallback owner.
 # These are the default owners for everything in the repo, unless a later match
 # takes precedence.
-# TODO(cookiecutter): Add more specific code-owners, check if the default is correct
 * @frequenz-floss/python-sdk-team

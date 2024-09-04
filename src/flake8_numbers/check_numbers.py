@@ -114,7 +114,7 @@ class Flake8NumbersChecker:
                         Flake8NumbersChecker,
                     )
 
-    def _extract_code(self, node: ast.AST) -> str:
+    def _extract_code(self, node: ast.Constant) -> str:
         """Extract the code of the given AST node.
 
         Args:
