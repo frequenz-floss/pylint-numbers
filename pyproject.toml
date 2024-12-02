@@ -142,6 +142,8 @@ disable = [
   "unsubscriptable-object",
   # Checked by mypy
   "no-member",
+  "possibly-used-before-assignment",
+  "no-name-in-module",
   # Checked by flake8
   "f-string-without-interpolation",
   "redefined-outer-name",
@@ -158,6 +160,7 @@ disable = [
 [tool.pytest.ini_options]
 testpaths = ["tests", "src"]
 asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
 required_plugins = ["pytest-asyncio", "pytest-mock"]
 markers = [
   "integration: integration tests (deselect with '-m \"not integration\"')",
